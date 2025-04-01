@@ -46,7 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsultaService.cs" />
+    <Compile Include="EspecieService.cs" />
+    <Compile Include="IConsultaService.cs" />
+    <Compile Include="IEspecieService.cs" />
+    <Compile Include="IHistorialMedicoService.cs" />
+    <Compile Include="IMascotaService.cs" />
+    <Compile Include="IPropietarioService.cs" />
+    <Compile Include="IRazaService.cs" />
+    <Compile Include="IVeterinarioService.cs" />
+    <Compile Include="MascotaService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PropietarioService.cs" />
+    <Compile Include="RazaService.cs" />
+    <Compile Include="VeterinarioService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
